@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: flask-app:final
-        imagePullPolicy: Never
+        image: jaggusuperhit/flask-app:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
         resources:
